@@ -1,0 +1,1 @@
+- Console.WriteLine'nın ağır operasyon olması
