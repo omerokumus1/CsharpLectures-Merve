@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLectures-Merve", "CsharpLectures-Merve\CsharpLectures-Merve.csproj", "{477964B8-78E2-4A34-B65E-D49F675FCF42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_1_Variables", "Ch1_1_Variables\Ch1_1_Variables.csproj", "{477964B8-78E2-4A34-B65E-D49F675FCF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_2_Arithmetic", "Ch1_2_Arithmetic\Ch1_2_Arithmetic.csproj", "{64A5251E-8CBA-4998-8066-8E8DC122D1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_3_Strings", "Ch1_3_Strings\Ch1_3_Strings.csproj", "{691EF9DF-A343-487D-941D-4206B0EF0E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_4_TypeConversion", "Ch1_4_TypeConversion\Ch1_4_TypeConversion.csproj", "{19E99161-F7DF-4362-87BC-5F338CBB3016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{477964B8-78E2-4A34-B65E-D49F675FCF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477964B8-78E2-4A34-B65E-D49F675FCF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477964B8-78E2-4A34-B65E-D49F675FCF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A5251E-8CBA-4998-8066-8E8DC122D1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A5251E-8CBA-4998-8066-8E8DC122D1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A5251E-8CBA-4998-8066-8E8DC122D1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A5251E-8CBA-4998-8066-8E8DC122D1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691EF9DF-A343-487D-941D-4206B0EF0E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691EF9DF-A343-487D-941D-4206B0EF0E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691EF9DF-A343-487D-941D-4206B0EF0E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691EF9DF-A343-487D-941D-4206B0EF0E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E99161-F7DF-4362-87BC-5F338CBB3016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E99161-F7DF-4362-87BC-5F338CBB3016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E99161-F7DF-4362-87BC-5F338CBB3016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E99161-F7DF-4362-87BC-5F338CBB3016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

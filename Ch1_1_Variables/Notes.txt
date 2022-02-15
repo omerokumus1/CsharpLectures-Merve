@@ -1,0 +1,4 @@
+- Console.WriteLine'nın ağır operasyon olması
+- char c5 = Convert.ToChar(5); -> neden '5' çıkartmıyor?
+                int i5 = Convert.ToInt32('4'); -> neden 52 çıkartıyor?
+

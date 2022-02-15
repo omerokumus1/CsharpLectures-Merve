@@ -40,6 +40,7 @@ namespace CsharpLectures_Merve
             //Console.WriteLine(1/3); -> integer division olur: nokta yoksa bilgisayar integer olarak kabul eder (1, 3, -7 ..)
               Console.WriteLine(1.0/3);  // double division -> nokta olduğu için double olarak kabul eder, double division olur
               Console.WriteLine(1/3.0);  // double division
+              Console.WriteLine(1.0/3.0);  // double division
             
             // 2- operator precedence (işlem önceliği)
             // çarpma bölme önce gelir, toplama çıkartma sonra gelir
@@ -63,11 +64,21 @@ namespace CsharpLectures_Merve
             Console.WriteLine(Math.Round(3.4));
             
             Console.WriteLine("sqrt and pow");
-            Console.WriteLine(Math.Sqrt(4));
-            Console.WriteLine(Math.Pow(4, 3));
+            Console.WriteLine(Math.Sqrt(4) ); // f(x)
+            Console.WriteLine(Math.Pow(4, 3)); // f(x, y)
             
             Console.WriteLine("pow for root");
-            Console.WriteLine(Math.Pow(64, 1.0/3));
+            Console.WriteLine(Math.Pow(64, 1.0/3) );
+            
+            // 4- Assignment by arithmetic
+            int x = 3, y = 4, z = -2;
+            int k = 2 * x - y + 3 * z;
+            
+            // 5- Assignment by functions (Functions: parantez açıp kapatılan yapılar -> Math.Pow(3, 2) etc)
+            int max = Math.Max(4, 5); // Math.Max'ın sonucu int olmalı. Eğer üzerine geldiğinde void yazıyorsa eşittirin sağ tarafına gelemez. Örn; Console.WriteLine
+            Console.WriteLine(max);
+            // int max2 = Console.WriteLine();
+            
         }
     }
 }
