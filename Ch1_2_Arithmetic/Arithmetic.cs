@@ -79,6 +79,9 @@ namespace CsharpLectures_Merve
             Console.WriteLine(max);
             // int max2 = Console.WriteLine();
             
+            // 6- expression: herhangi bir işlem içeren yapılardır. Örn; 2 * x - y + 3 * z, Math.Min(2,3)
+            // Assignment yaparken önce expression hesaplanır sonra expression sonucu değişkene atanır. Örn; satır 75, 78
+            
         }
     }
 }

@@ -24,7 +24,9 @@ namespace CsharpLectures_Merve
             t = p; // p = t 'den farklıdır.
             double q = -12.9;
             // 3.12 = d; // hatalı
-            
+
+            // tek satırda birden fazla assignment
+            int i1 = 1, i4 = 2, i3 = 3;
         
             char c = ' ';
             string s = "C sharp programming is fun.";
@@ -47,7 +49,7 @@ namespace CsharpLectures_Merve
         
             // Reusability
             
-            // 3- constants: değiştirilemek, 1 kez tanımlanır
+            // 3- constants: değiştirilemez, 1 kez tanımlanır
             const double pi = 3.14;
             // const int i3;  // hatalı; constant değer declare edilirken initialize edilmeli (assignment yapılmalı)
             // pi = 3;
@@ -57,6 +59,7 @@ namespace CsharpLectures_Merve
             Console.WriteLine(s3);
         
             char c3 = '\\';
+            char c4 = '\'';
             Console.WriteLine(c3);
             
             // new line: \n, tab: \t
