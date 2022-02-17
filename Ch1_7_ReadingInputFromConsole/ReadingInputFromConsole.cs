@@ -2,7 +2,7 @@
 
 namespace Ch1_7_ReadingInputFromConsole
 {
-    internal class Program
+    internal class ReadingInputFromConsole
     {
         public static void Main(string[] args)
         {
@@ -61,7 +61,16 @@ namespace Ch1_7_ReadingInputFromConsole
             int i1;
             bool success = Int32.TryParse(Console.ReadLine(), out i1);
             Console.WriteLine("Parsing is " + success);
+
+            int i2;
+            Int32.TryParse(Console.ReadLine(), out i2);
+
+            int i3;
+            string s = "11";
+            Int32.TryParse(s, out i3);
             
+            // string'in hatalı olmadığından eminsen Convert ile dönüşüm yapabilirsin. Eğer değilsen TryParse kullan.
+
         }
     }
 }

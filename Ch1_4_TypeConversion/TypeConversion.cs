@@ -55,8 +55,17 @@ namespace Ch1_4_TypeConversion
             Console.WriteLine(i4);
             Console.WriteLine(i5);
             Console.WriteLine(str5);
+            
+            
+            // Type conversion'da veri kaybı
+            double d6 = 3.12;
+            int i6 = (int) d6;
+            Console.WriteLine("i6: " + i6);
 
-
+            double d7 = 3.12;
+            int i7 = (int) Math.Pow(d7, 2);
+            Console.WriteLine("d7 squared: " + Math.Pow(d7, 2));
+            Console.WriteLine("i7: " + i7);
 
         }
     }
