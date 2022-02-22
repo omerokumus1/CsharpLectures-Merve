@@ -1,1 +1,6 @@
 - Bölünebilme kurallarıyla kalan bulmak
+
+HW1: Girilen bir sayının 5'in katı olup olmadığını anlayan program
+HW2: Java book, ch3 Q3.1, Q3.2 
+HW3: C# book, mail ile gönderilen sorular
+Bonus: zaman kalırsa Ch2 soruları
