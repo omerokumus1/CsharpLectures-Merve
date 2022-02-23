@@ -2,3 +2,4 @@
 - char c5 = Convert.ToChar(5); -> neden '5' çıkartmıyor?
                 int i5 = Convert.ToInt32('4'); -> neden 52 çıkartıyor?
 
+- Tek satır if içerisinde neden değişken declare edilemez

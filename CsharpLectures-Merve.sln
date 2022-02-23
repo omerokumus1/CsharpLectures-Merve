@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch2_1_RelationalOperators",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch2_2_IfStatements", "Ch2_2_IfStatements\Ch2_2_IfStatements.csproj", "{30E3EB02-770B-4F55-9478-AAB2C727F670}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch2_3_CommonErrors", "Ch2_3_CommonErrors\Ch2_3_CommonErrors.csproj", "{356A1C8E-C0F4-4010-90BA-4D51527613CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch2_Exercise1_BMI", "Ch2_Exercise1_BMI\Ch2_Exercise1_BMI.csproj", "{7F42314E-CF2F-494C-B91F-91F519CB33CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +100,13 @@ Global
 		{30E3EB02-770B-4F55-9478-AAB2C727F670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E3EB02-770B-4F55-9478-AAB2C727F670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E3EB02-770B-4F55-9478-AAB2C727F670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356A1C8E-C0F4-4010-90BA-4D51527613CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356A1C8E-C0F4-4010-90BA-4D51527613CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356A1C8E-C0F4-4010-90BA-4D51527613CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356A1C8E-C0F4-4010-90BA-4D51527613CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F42314E-CF2F-494C-B91F-91F519CB33CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F42314E-CF2F-494C-B91F-91F519CB33CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F42314E-CF2F-494C-B91F-91F519CB33CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F42314E-CF2F-494C-B91F-91F519CB33CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
