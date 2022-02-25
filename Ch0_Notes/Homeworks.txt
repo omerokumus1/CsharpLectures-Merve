@@ -10,3 +10,5 @@ HW4: Java book ch 3.9 Case Study: Computing Body Mass Index
             System.out.print() = Console.Write(),
             System.exit() = programı sonlandırır.
             
+HW5: Java kitabı chapter 3 egzersizlerinden 3.5, 3.6, 3.9, 3.12, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19
+    
