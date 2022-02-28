@@ -12,3 +12,9 @@ HW4: Java book ch 3.9 Case Study: Computing Body Mass Index
             
 HW5: Java kitabı chapter 3 egzersizlerinden 3.5, 3.6, 3.9, 3.12, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19
     
+HW6: While loop içerisindeki toplama quizini 4 işlem quizine çevir. Burada işlemler rastgele gelmeli. 10 tane soru yeterli.
+        modelleme yapılarak switch case kullanılabilir.
+        Next step: Program istatistiksel yaklaşımda bulunabilir. Yani; Kaç toplama işleminin kaçı doğru veya kaç bölme işleminden kaç tanesi
+                    doğru gibi.
+                 
+   

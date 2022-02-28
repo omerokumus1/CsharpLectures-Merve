@@ -3,3 +3,5 @@
                 int i5 = Convert.ToInt32('4'); -> neden 52 çıkartıyor?
 
 - Tek satır if içerisinde neden değişken declare edilemez
+
+- GuessingNumber'ı do-while ile yaz
