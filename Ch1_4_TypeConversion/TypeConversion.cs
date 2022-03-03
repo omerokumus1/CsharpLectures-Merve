@@ -42,19 +42,26 @@ namespace Ch1_4_TypeConversion
             // Convert.ToInt32();
             // Convert.ToString();
 
+            // ** char -> int ve int -> char dönüşümlerine dikkat et 
             char c4 = Convert.ToChar("C");
-            char c5 = Convert.ToChar(5);
-            double d4 = Convert.ToDouble("3,4");
-            int i4 = Convert.ToInt32("3");
-            int i5 = Convert.ToInt32('4');
-            string str5 = Convert.ToString(3.14);
             
-            Console.WriteLine(c4);
-            Console.WriteLine(c5);
-            Console.WriteLine(d4);
-            Console.WriteLine(i4);
-            Console.WriteLine(i5);
-            Console.WriteLine(str5);
+            char c5 = Convert.ToChar(5); // '5' olarak gelmez 
+            // string -> double
+            double d4 = Convert.ToDouble("3,4"); 
+            int i4 = Convert.ToInt32("3");
+            int i5 = Convert.ToInt32('4'); // 4 olarak gelmez
+            string str5 = Convert.ToString(3.14);
+            string str6 = Convert.ToString(123456789);
+            string str7 = Convert.ToString('3');
+            
+            Console.WriteLine("c4: " + c4);
+            Console.WriteLine("c5: "+c5);
+            Console.WriteLine("d4: "+d4);
+            Console.WriteLine("i4: "+i4);
+            Console.WriteLine("i5: "+i5);
+            Console.WriteLine("str5: "+str5);
+            Console.WriteLine("str6: "+str6);
+            Console.WriteLine("str7: "+str7);
             
             
             // Type conversion'da veri kaybı
