@@ -31,9 +31,9 @@ namespace Ch3_Exercise1_GuessingNumbers
             int guess;
             Int32.TryParse(Console.ReadLine(), out guess);
             counter++;
-
+            int guessLimit = 5;
             // sentinel controlled loop çünkü döngünün bitmesi doğru tahminin yapılması olayına bağlıdır
-            while (guess != number) // 2.1. Eğer input ile oluşturulan rastgele sayı eşleşirse oyunu bitir
+            while (guess != number || counter != guessLimit) // 2.1. Eğer input ile oluşturulan rastgele sayı eşleşirse oyunu bitir
             { // 2.2. Eğer eşleşmezse kullanıcıdan input almaya devam et. (döngü oluştur)
                 Console.WriteLine("Wrong. Enter your guess in [10,20] again");
                 Int32.TryParse(Console.ReadLine(), out guess);

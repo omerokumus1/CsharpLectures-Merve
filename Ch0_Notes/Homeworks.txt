@@ -17,4 +17,20 @@ HW6: While loop içerisindeki toplama quizini 4 işlem quizine çevir. Burada i�
         Next step: Program istatistiksel yaklaşımda bulunabilir. Yani; Kaç toplama işleminin kaçı doğru veya kaç bölme işleminden kaç tanesi
                     doğru gibi.
                  
-   
+------
+HW7: Verilen bir stringin: 
+        a. baş harfini büyük yapan 
+        b. sonuna nokta koyan
+        c. içindeki noktalama işaretlerini sayan
+        d. içindeki türkçe karakteri sayan
+                programları yaz
+      
+HW8: Verilen bir stringi:
+        a. büyük harfe çevir
+        b. küçük harfe çevir
+        c. her kelimenin baş harfini büyük harf yap
+        d. Sadece türkçe karakterleri büyük harf diğerlerini ise küçük yap
+                programları yaz. Stringiler için ToString, ToUpper vb To ile başlayan fonksiyonlar replace, insert vb gibi genel string değiştiren fonksiyonlar yasak. 
+                Ne kadar az fonksiyon o kadar iyi. Char için ToUpper ToLower gibi methodlar kullanılabilir.
+                
+                          
