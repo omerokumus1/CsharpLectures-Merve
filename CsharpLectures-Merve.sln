@@ -58,6 +58,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_2_1_SomeFunctionsReview
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_3_StringExercisesWithWhileLoop", "Ch3_3_StringExercisesWithWhileLoop\Ch3_3_StringExercisesWithWhileLoop.csproj", "{34B8EAFC-348E-46E7-8CBC-E5EE6430B216}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_4_DoWhileLoop", "Ch3_4_DoWhileLoop\Ch3_4_DoWhileLoop.csproj", "{89643E39-F16E-40E4-853C-28FA829AD91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_5_ForLoop", "Ch3_5_ForLoop\Ch3_5_ForLoop.csproj", "{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,5 +184,13 @@ Global
 		{34B8EAFC-348E-46E7-8CBC-E5EE6430B216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B8EAFC-348E-46E7-8CBC-E5EE6430B216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B8EAFC-348E-46E7-8CBC-E5EE6430B216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89643E39-F16E-40E4-853C-28FA829AD91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89643E39-F16E-40E4-853C-28FA829AD91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89643E39-F16E-40E4-853C-28FA829AD91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89643E39-F16E-40E4-853C-28FA829AD91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

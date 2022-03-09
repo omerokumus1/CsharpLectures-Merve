@@ -33,4 +33,16 @@ HW8: Verilen bir stringi:
                 programları yaz. Stringiler için ToString, ToUpper vb To ile başlayan fonksiyonlar replace, insert vb gibi genel string değiştiren fonksiyonlar yasak. 
                 Ne kadar az fonksiyon o kadar iyi. Char için ToUpper ToLower gibi methodlar kullanılabilir.
                 
-                          
+-------
+
+HW9: Verilen bir string için;
+        a. aynısından üreten
+        b. içinde herhangi bir karakter olup olmadığını bulan
+        c. verilen iki index ile alt string alan (substring methodu gibi)
+        d. verilen başka bir string ile başlayıp başlamadığını kontrol eden
+        e. verilen başka bir string ile bitip bitmediğini kontrol eden
+        f. verilen bir karakterin baştan kaçıncı indexte olduğunu bulan (birden fazla varsa ilk index verilir)
+        g. verilen bir karakterin sondan kaçıncı indexte olduğunu bulan (birden fazla varsa ilk index verilir)
+        
+HW10: iki stringin eşitliğini kontrol eden program
+                
