@@ -5,3 +5,41 @@
 - Tek satır if içerisinde neden değişken declare edilemez
 
 - GuessingNumber'ı do-while ile yaz
+
+- String döngü ödevleri:
+    + Capitalize (baş harfi büyük yap)
+    + Add period (sonuna nokta koy)
+    + Count punctuations
+    + Count turkish letters
+    + Count uppercase letters
+    + Count words
+    + ToUpper
+    + ToLower
+    + Capitalize each word
+    + Capitalize turkish letters, lower others
+    + Clone
+    + Contains character
+    - Contains string** 
+    - Substring
+    + StartsWith
+    + EndsWith
+    + IndexOf
+    + LastIndexOf
+    - Equals
+    - Insert character
+    - Insert string**
+    - Remove all characters**
+    - Remove a character at an index
+    - Remove string** 
+    - Replace all characters**
+    - Replace a character at an index with another given character
+    - Replace string**
+    - Trim spaces
+    - Trim end
+    - Trim start
+    - CompareTo**
+    - Pad tab
+    - Pad left
+    - Pad right
+   
+    

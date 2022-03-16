@@ -36,8 +36,8 @@ HW8: Verilen bir stringi:
 -------
 
 HW9: Verilen bir string için;
-        a. aynısından üreten
-        b. içinde herhangi bir karakter olup olmadığını bulan
+        a. aynısından üreten (Clone)
+        b. içinde herhangi bir karakter olup olmadığını bulan (Contains)
         c. verilen iki index ile alt string alan (substring methodu gibi)
         d. verilen başka bir string ile başlayıp başlamadığını kontrol eden
         e. verilen başka bir string ile bitip bitmediğini kontrol eden
@@ -46,3 +46,18 @@ HW9: Verilen bir string için;
         
 HW10: iki stringin eşitliğini kontrol eden program
                 
+-------
+
+HW11: Verilen bir string için;
+        *a. verilen bir indexine verilen bir karakteri koy. 
+            Örn; "abc" stringinin 1. indexine 'X' koyarsan "aXbc" üretmeli
+        *b. verilen bir indexteki karakteri sil. 
+            Örn; "abc" stringinin 1. indexindeki karakteri silersen "ac" üretmeli
+        *c. verilen bir indexteki karakteri verilen başka bir karakter ile değiş
+            Örn; "abc" stringinin 1. indexindeki karakteri X ile değişirsen "aXc" üretmeli
+        d. verilen bir stringin başındaki ve sonundaki boşlukları sil
+            Örn; "   abc  " -> "abc"
+        e. verilen bir stringin sadece başındaki boşlukları sil
+            Örn; "   abc  " -> "abc  "
+        f. verilen bir stringin sadece sonundaki boşlukları sil
+                       Örn; "   abc  " -> "   abc"
