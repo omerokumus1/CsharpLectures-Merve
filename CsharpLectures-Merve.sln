@@ -62,6 +62,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_4_DoWhileLoop", "Ch3_4_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_5_ForLoop", "Ch3_5_ForLoop\Ch3_5_ForLoop.csproj", "{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_Homeworks", "Ch3_Homeworks\Ch3_Homeworks.csproj", "{E25D068C-BE98-4036-BAF4-9EF449757908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,5 +194,9 @@ Global
 		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94BC0C12-CA43-4C7A-B023-BD4326B0CCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25D068C-BE98-4036-BAF4-9EF449757908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25D068C-BE98-4036-BAF4-9EF449757908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25D068C-BE98-4036-BAF4-9EF449757908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25D068C-BE98-4036-BAF4-9EF449757908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
