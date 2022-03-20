@@ -61,3 +61,26 @@ HW11: Verilen bir string için;
             Örn; "   abc  " -> "abc  "
         f. verilen bir stringin sadece sonundaki boşlukları sil
                        Örn; "   abc  " -> "   abc"
+                       
+                       
+------
+
+HW12: Verilen bir string için;
+        a. verilen bir indexe verilen bir stringi yerleştir
+            Örn; "abc" stringinin 1. indexine "XYZ" koyarsan "aXYZbc" üretmeli
+        b. verilen bir karakteri tüm stringden sil
+            Örn; "abbc" stringinden b karakterini silersen "ac" üretmeli
+        c. verilen bir karakterden verilen sayıda sil
+            Örn; "abb bbc" stringinden b karakterini 2 kez silersen "a bbc" üretmeli
+                var olan toplam sayıdan daha fazla sayı verilirse tüm hepsini sil
+                Örn; "abbc" stringinden b karakterini 3 kez silersen "ac" üretmeli
+        d. verilen bir karakteri verilen bir indexten başlayıp verilen sayı kadar sil
+            Örn; "abb bbc" stringinden b karakterini 2. indexten itibaren 2 kez silersen "ab bc" üretmeli
+                indexten sonrası için var olan toplam sayıdan daha fazla sayı verilirse hepsini sil.
+                index kontrolü yap
+        e. verilen bir karakterin hepsini verilen başka bir karakterle değiştir
+            Örn; "abbc" stringinde b karakteri X ile değiştirirsen "aXXc" üretmeli
+        f. verilen bir karakteri verilen başka bir karakterle verilen sayı kadar değiştir
+            Örn; "abb bbc" stringinde b karakterini X ile 2 tane değiştirirsen "aXX bbc" üretmeli
+        g. verilen bir karakteri verilen başka bir karakterle verilen bir indexten başlayıp verilen sayı kadar değiştir
+            Örn; "abb bbc" stringinde b karakterini 2. indexten başlayıp 2 tane değiştirirsen "abX Xbc" üretmeli 

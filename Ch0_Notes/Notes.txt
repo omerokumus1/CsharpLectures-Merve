@@ -29,9 +29,13 @@
     - Insert character
     - Insert string**
     - Remove all characters**
+    - Remove a character as given number of times (2 tane sil, 5 tane sil vb)**
+    - Remove a character starting from a given index as given number of times (2. indexten başla 3 tane sil gibi)***
     - Remove a character at an index
     - Remove string** 
     - Replace all characters**
+    - Replace a character as given number of times (2 tane değiştir, 5 tane değiştir vb)**
+    - Replace a character starting from a given index as given number of times (2. indexten başla 3 tane değiştir gibi)***
     - Replace a character at an index with another given character
     - Replace string**
     - Trim spaces
