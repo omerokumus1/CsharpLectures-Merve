@@ -139,6 +139,158 @@ namespace Ch3_Homeworks
             
             // Ek ödev: Yukardaki programları debug modunda çalıştırıp takip edin. Bir sonraki çalışacak satırı tahmin etmeye çalışın
 
+            
+            
+            // HW12
+            
+            // b. verilen bir karakteri tüm stringden sil
+            //  Örn; "abbc" stringinden b karakterini silersen "ac" üretmeli
+            str = "b abbc xy xby bb, xb";
+            ch = 'b';
+            newString = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str.ElementAt(i) != ch)
+                {
+                    newString += str.ElementAt(i);
+                }
+            }
+            Console.WriteLine("HW12-b. newString: " + newString);
+            
+            // c. verilen bir karakterden verilen sayıda sil
+            //  Örn; "abb bbc" stringinden b karakterini 2 kez silersen "a bbc" üretmeli
+            //  var olan toplam verilen karakter sayısından daha fazla sayı verilirse tüm hepsini sil
+            //  Örn; "abbc" stringinden b karakterini 3 kez silersen "ac" üretmeli
+            str = "abb bbc";
+            ch = 'b';
+            newString = "";
+            int removeCount = 0;
+            int toBeRemovedCount = 20;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str.ElementAt(i) != ch || removeCount == toBeRemovedCount)
+                {
+                    newString += str.ElementAt(i);
+                }
+                else // elemanı alma
+                {
+                    removeCount++; // almadığın elemanları say
+                }
+            }
+            Console.WriteLine("HW12-c. newString: " + newString);
+
+            
+            // d. verilen bir karakteri verilen bir indexten başlayıp verilen sayı kadar sil
+            // Örn; "abb bbc" stringinden b karakterini 2. indexten itibaren 2 kez silersen "ab bc" üretmeli
+            // indexten sonrası için var olan toplam sayıdan daha fazla sayı verilirse hepsini sil.
+            // index kontrolü yap
+            // verilenler
+            str = "abb bbc";
+            ch = 'b';
+            toBeRemovedCount = 2;
+            startIndex = 2;
+            
+            // benim değiştireceklerim
+            newString = "";
+            removeCount = 0;
+            // startIndex'e kadar koşulsuz tüm karakteri al
+            for (int i = 0; i < startIndex; i++)
+            {
+                newString += str.ElementAt(i);
+            }
+            // newString = str.Substring(0, startIndex);
+            // startIndex'ten sonra koşullu seçmeye başla
+            for (int i = startIndex; i < str.Length; i++)
+            {
+                if (str.ElementAt(i) != ch) // verilen karaktere eşit değilse direkt al
+                {
+                    newString += str.ElementAt(i);
+                }
+                else // verilen karaktere eşitse;
+                {
+                    if (removeCount == toBeRemovedCount) // eğer yeteri kadar eleman sildiysen bu karakteri dahil et
+                    {
+                        newString += str.ElementAt(i);
+                    }
+                    else // silmediysen bunu sil
+                    {
+                        removeCount++; // silinenleri say
+                    }
+                }
+            }
+            Console.WriteLine("HW12-d. newString: " + newString);
+            
+            
+            // e. verilen bir karakterin hepsini verilen başka bir karakterle değiştir
+            //     Örn; "abbc" stringinde b karakteri X ile değiştirirsen "aXXc" üretmeli
+            str = "abbc";
+            char chToBeChanged = 'b';
+            ch = 'X';
+            newString = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str.ElementAt(i) == chToBeChanged)
+                {
+                    newString += ch;
+                }
+                else
+                {
+                    newString += str.ElementAt(i);
+                }
+            }
+            Console.WriteLine("HW12-e. newString: " + newString);
+            
+            // f. verilen bir karakteri verilen başka bir karakterle verilen sayı kadar değiştir
+            // Örn; "abb bbc" stringinde b karakterini X ile 2 tane değiştirirsen "aXX bbc" üretmeli
+            str = "abb bbc";
+            chToBeChanged = 'b';
+            ch = 'X';
+            int toBeChangedCount = 2;
+
+            newString = "";
+            int changeCount = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str.ElementAt(i) != chToBeChanged || toBeChangedCount == changeCount)
+                {
+                    newString += str.ElementAt(i);
+                }
+                else
+                {
+                    newString += ch;
+                    changeCount++;
+                }
+            }
+            Console.WriteLine("HW12-f. newString: " + newString);
+            
+            
+            // g. verilen bir karakteri verilen başka bir karakterle verilen bir indexten başlayıp verilen sayı kadar değiştir
+            // Örn; "abb bbc" stringinde b karakterini 2. indexten başlayıp 2 tane değiştirirsen "abX Xbc" üretmeli
+            str = "abb bbc";
+            chToBeChanged = 'b';
+            ch = 'X';
+            startIndex = 2;
+            toBeChangedCount = 20;
+            newString = "";
+            changeCount = 0;
+            for (int i = 0; i < startIndex; i++)
+            {
+                newString += str.ElementAt(i);
+            }
+
+            for (int i = startIndex; i < str.Length; i++)
+            {
+                if (str.ElementAt(i) != chToBeChanged || changeCount == toBeChangedCount)
+                {
+                    newString += str.ElementAt(i);
+                }
+                else
+                {
+                    changeCount++;
+                    newString += ch;
+                }
+            }
+            Console.WriteLine("HW12-g. newString: " + newString);
         }
     }
 }
