@@ -87,3 +87,9 @@ HW12: Verilen bir string için;
             
 ------
 HW13: Java kitabı, ch5 Loops problemleri: 5.4, 5.5, 5.6, 5.8, 5.9, 5.10, 5.11, 5.12, 5.13
+
+------
+HW14: Java kitabı, ch5 Loops problemleri:   5.12 ile 5.13'ü tek satırda yazdır (İpucu: Math fonksiyonları kullan)
+                                            5.14'ü yorum satırlarındaki örnekteki mantığı kullanarak kodlayın
+                                            5.14-2'yi 5.14'deki mantıkla kodlayın
+                                            Euclid greatest common divisor algoritmasını implement edin (khan academy)
