@@ -134,6 +134,7 @@ namespace Ch3_JavaBookLoopExercises
                         n1 /= div;
                         ekok *= div;
                     }
+
                     if (n2 % div == 0)
                     {
                         n2 /= div;
@@ -144,7 +145,141 @@ namespace Ch3_JavaBookLoopExercises
                 if (n1 % div != 0 && n2 % div != 0)
                     div++;
             }
+
             Console.WriteLine("Exercise 5.14-2, ekok(" + n1Orj + ", " + n2Orj + ") = " + ekok);
+
+            /*
+             * 5.18 Display four patterns:
+             *      a. Sola dayalı dik üçgen
+             *      b. Sola dayalı ters dik üçgen
+             *      c. Sağa dayalı dik üçgen
+             *      d. Sağa dayalı ters dik üçgen
+             */
+
+            // 5.18.a Sola dayalı dik üçgen
+            Console.WriteLine("5.18.a Sola dayalı dik üçgen");
+            int rowNumber = 6;
+            for (int row = 0; row < rowNumber; row++) // satırları row değişkeni ile takip edebiliriz
+            {
+                // satırdaki elemanları bastırma işi
+                for (int i = 0; i <= row; i++)
+                {
+                    Console.Write((i + 1) + " ");
+                }
+
+                Console.WriteLine();
+            }
+
+            // 5.18.b. Sola dayalı ters dik üçgen - Ödev
+            Console.WriteLine("5.18.b. Sola dayalı ters dik üçgen");
+
+            // 5.18.c. Sağa dayalı dik üçgen
+            Console.WriteLine("5.18.c. Sağa dayalı dik üçgen");
+            rowNumber = 6;
+            for (int row = 0; row < rowNumber; row++) // satırları row değişkeni ile takip edebiliriz
+            {
+                // satırlara boşluk koyma işi
+                for (int i = 0; i < rowNumber - (row + 1); i++)
+                {
+                    Console.Write("  ");
+                }
+
+                // satırlara sayı koyma işi
+                for (int i = row + 1; i >= 1; i--)
+                {
+                    Console.Write(i + " ");
+                }
+
+                Console.WriteLine();
+            }
+            
+            // 5.18.d. Sağa dayalı ters dik üçgen - Ödev
+            Console.WriteLine("5.18.d. Sağa dayalı ters dik üçgen");
+
+
+            /*
+             * 5.18-2 Display patterns below by start (*)
+             *      a. 5.18'deki şekilleri yıldız ile içi boş ve dolu olarak çizdir
+             *      b. İçi dolu ikizkenar üçgen
+             *      c. İçi boş ikizkenar üçgen
+             *      d. İçi boş dikdörtgen
+             *      e. İçi dolu dikdörtgen
+             *      f. İçi boş baklava dilimi
+             *      g. İçi dolu baklava dilimi
+             */
+
+            // 5.18-2.a Sola dayalı içi dolu dik üçgen
+            Console.WriteLine("5.18-2.a Sola dayalı içi dolu dik üçgen");
+            rowNumber = 6;
+            for (int row = 0; row < rowNumber; row++)
+            {
+                for (int i = 0; i < row + 1; i++)
+                {
+                    Console.Write("* ");
+                }
+
+                Console.WriteLine();
+            }
+            
+            // 5.18-2.a-2 Sola dayalı içi boş dik üçgen - Çözüm 1
+            Console.WriteLine("5.18-2.a-2 Sola dayalı içi boş dik üçgen");
+            rowNumber = 6;
+            Console.WriteLine("* "); // ilk satır
+            for (int row = 1; row < rowNumber-1; row++) // ara satırlar
+            {
+                Console.Write("* ");
+                
+                // boşluk koyma işi
+                for (int i = 0; i <= row-2; i++)
+                {
+                    Console.Write("  ");
+                }
+                
+                Console.WriteLine("* ");
+            }
+            // son satır
+            for (int i = 0; i < rowNumber; i++)
+            {
+                Console.Write("* ");
+            }
+            Console.WriteLine();
+            
+            // 5.18-2.a-2 Sola dayalı içi boş dik üçgen - Çözüm 2
+            Console.WriteLine("5.18-2.a-2 Sola dayalı içi boş dik üçgen - Çözüm 2");
+            rowNumber = 6;
+            for (int row = 0; row < rowNumber; row++)
+            {
+                if (row == 0) // ilk satır
+                {
+                    Console.WriteLine("* ");
+                }
+                else if (row == 5) // son satır
+                {
+                    for (int i = 0; i < rowNumber; i++)
+                    {
+                        Console.Write("* ");
+                    }
+                }
+                else // ara satırlar
+                {
+                    Console.Write("* ");
+                    for (int i = 0; i <= row-2; i++)
+                    {
+                        Console.Write("  ");
+                    }
+                    Console.WriteLine("* ");
+                }
+            }
+            
+            /* 
+             * 5.18-2.a-2 Çözüm 1 vs Çözüm 2
+             *      Çözüm 1 Çözüm 2'den daha iyidir.
+             *          Sebebi: 2. çözümde row == 0 ve row == 5 durumları 1 kere true gelir.
+             *                  fakat biz bilgisayara row = 1,2,3,4 için de bu durumların
+             *                  kontrolünü yaptırıyoruz. Gereksiz kontrol yapmış oluyor çünkü
+             *                  if koşullarının 1 kere true geleceğini biliyoruz
+             */
+
         }
     }
 }

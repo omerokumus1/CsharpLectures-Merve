@@ -1,31 +1,31 @@
 - Bölünebilme kurallarıyla kalan bulmak
 
-HW1: Girilen bir sayının 5'in katı olup olmadığını anlayan program
-HW2: Java book, ch3 Q3.1, Q3.2 
-HW3: C# book, mail ile gönderilen sorular
++HW1: Girilen bir sayının 5'in katı olup olmadığını anlayan program
++HW2: Java book, ch3 Q3.1, Q3.2 
++HW3: C# book, mail ile gönderilen sorular
 Bonus: zaman kalırsa Ch2 soruları
 
-HW4: Java book ch 3.9 Case Study: Computing Body Mass Index
++HW4: Java book ch 3.9 Case Study: Computing Body Mass Index
     Notes: System.out.println() = Console.WriteLine(),
             System.out.print() = Console.Write(),
             System.exit() = programı sonlandırır.
             
-HW5: Java kitabı chapter 3 egzersizlerinden 3.5, 3.6, 3.9, 3.12, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19
++HW5: Java kitabı chapter 3 egzersizlerinden 3.5, 3.6, 3.9, 3.12, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19
     
-HW6: While loop içerisindeki toplama quizini 4 işlem quizine çevir. Burada işlemler rastgele gelmeli. 10 tane soru yeterli.
++HW6: While loop içerisindeki toplama quizini 4 işlem quizine çevir. Burada işlemler rastgele gelmeli. 10 tane soru yeterli.
         modelleme yapılarak switch case kullanılabilir.
         Next step: Program istatistiksel yaklaşımda bulunabilir. Yani; Kaç toplama işleminin kaçı doğru veya kaç bölme işleminden kaç tanesi
                     doğru gibi.
                  
 ------
-HW7: Verilen bir stringin: 
++HW7: Verilen bir stringin: 
         a. baş harfini büyük yapan 
         b. sonuna nokta koyan
         c. içindeki noktalama işaretlerini sayan
         d. içindeki türkçe karakteri sayan
                 programları yaz
       
-HW8: Verilen bir stringi:
++HW8: Verilen bir stringi:
         a. büyük harfe çevir
         b. küçük harfe çevir
         c. her kelimenin baş harfini büyük harf yap
@@ -35,7 +35,7 @@ HW8: Verilen bir stringi:
                 
 -------
 
-HW9: Verilen bir string için;
++HW9: Verilen bir string için;
         a. aynısından üreten (Clone)
         b. içinde herhangi bir karakter olup olmadığını bulan (Contains)
         c. verilen iki index ile alt string alan (substring methodu gibi)
@@ -44,11 +44,11 @@ HW9: Verilen bir string için;
         f. verilen bir karakterin baştan kaçıncı indexte olduğunu bulan (birden fazla varsa ilk index verilir)
         g. verilen bir karakterin sondan kaçıncı indexte olduğunu bulan (birden fazla varsa ilk index verilir)
         
-HW10: iki stringin eşitliğini kontrol eden program
++HW10: iki stringin eşitliğini kontrol eden program
                 
 -------
 
-HW11: Verilen bir string için;
++HW11: Verilen bir string için;
         +*a. verilen bir indexine verilen bir karakteri koy. 
             Örn; "abc" stringinin 1. indexine 'X' koyarsan "aXbc" üretmeli
         *b. verilen bir indexteki karakteri sil. 
@@ -65,7 +65,7 @@ HW11: Verilen bir string için;
                        
 ------
 
-HW12: Verilen bir string için;
++HW12: Verilen bir string için;
         +a. verilen bir indexe verilen bir stringi yerleştir
             Örn; "abc" stringinin 1. indexine "XYZ" koyarsan "aXYZbc" üretmeli
         +b. verilen bir karakteri tüm stringden sil
@@ -86,10 +86,22 @@ HW12: Verilen bir string için;
             Örn; "abb bbc" stringinde b karakterini 2. indexten başlayıp 2 tane değiştirirsen "abX Xbc" üretmeli
             
 ------
-HW13: Java kitabı, ch5 Loops problemleri: 5.4, 5.5, 5.6, 5.8, 5.9, 5.10, 5.11, 5.12, 5.13
++HW13: Java kitabı, ch5 Loops problemleri: 5.4, 5.5, 5.6, 5.8, 5.9, 5.10, 5.11, 5.12, 5.13
 
 ------
 HW14: Java kitabı, ch5 Loops problemleri:   5.12 ile 5.13'ü tek satırda yazdır (İpucu: Math fonksiyonları kullan)
                                             5.14'ü yorum satırlarındaki örnekteki mantığı kullanarak kodlayın
                                             5.14-2'yi 5.14'deki mantıkla kodlayın
                                             Euclid greatest common divisor algoritmasını implement edin (khan academy)
+                                            
+-----
+HW15:   5.18.d. Sağa dayalı ters dik üçgen - Ödev
+        5.18.b. Sola dayalı ters dik üçgen - Ödev
+        5.18-2 Display patterns below by start (*)
+             a. 5.18'deki şekilleri yıldız ile içi boş ve dolu olarak çizdir
+             b. İçi dolu ikizkenar üçgen
+             c. İçi boş ikizkenar üçgen
+             d. İçi boş dikdörtgen
+             e. İçi dolu dikdörtgen
+             f. İçi boş baklava dilimi
+             g. İçi dolu baklava dilimi
