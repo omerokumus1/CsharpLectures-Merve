@@ -6,6 +6,18 @@
 
 - GuessingNumber'ı do-while ile yaz
 
+- Next: char type, data types and storages, reference, var keyword
+    C# kitabı: 
+        + Data types:
+            - Types
+            - Real-floating point Types
+            - Real types with decimal Precision
+            - Character Type (ASCII table)
+            - Value and Reference Types
+            - null, nullable types
+            - Operators as, is, typeof, ??, sizeof
+            - Overflow, Data loss 
+
 - String döngü ödevleri:
     + Capitalize (baş harfi büyük yap)
     + Add period (sonuna nokta koy)
