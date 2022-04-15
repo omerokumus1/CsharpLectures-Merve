@@ -7,6 +7,12 @@
 - GuessingNumber'ı do-while ile yaz
 
 - Next: char type, data types and storages, reference, var keyword
+- u -> unsigned
+    s -> signed
+    '\''
+    "\""
+    x as double
+    x is double
     C# kitabı: 
         + Data types:
             - Types

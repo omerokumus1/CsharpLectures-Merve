@@ -68,6 +68,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_JavaBookLoopExercises",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_9_DataTypes", "Ch1_9_DataTypes\Ch1_9_DataTypes.csproj", "{F853F10D-6CC4-420B-9927-34E2C629A7B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_1_MethodsIntro", "Ch4_1_MethodsIntro\Ch4_1_MethodsIntro.csproj", "{7C395D32-F80E-47FC-A4F4-AB1BF67D6B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_2_MethodDefinitionAndCalling", "Ch4_2_MethodDefinitionAndCalling\Ch4_2_MethodDefinitionAndCalling.csproj", "{1F683E92-46F8-421B-B894-9825F53FFBED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -210,5 +214,13 @@ Global
 		{F853F10D-6CC4-420B-9927-34E2C629A7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F853F10D-6CC4-420B-9927-34E2C629A7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F853F10D-6CC4-420B-9927-34E2C629A7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C395D32-F80E-47FC-A4F4-AB1BF67D6B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C395D32-F80E-47FC-A4F4-AB1BF67D6B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C395D32-F80E-47FC-A4F4-AB1BF67D6B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C395D32-F80E-47FC-A4F4-AB1BF67D6B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F683E92-46F8-421B-B894-9825F53FFBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F683E92-46F8-421B-B894-9825F53FFBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F683E92-46F8-421B-B894-9825F53FFBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F683E92-46F8-421B-B894-9825F53FFBED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -105,3 +105,18 @@ HW15:   5.18.d. Sağa dayalı ters dik üçgen - Ödev
              e. İçi dolu dikdörtgen
              f. İçi boş baklava dilimi
              g. İçi dolu baklava dilimi
+
+-----
+HW16:   - Birden n'ye kadar olan sayıların toplamını bulan fonksiyon yaz
+            public static int sumUntil(int n)
+        - Birden n'ye kadar olan çift sayıların toplamını bulan fonksiyon yaz
+            public static int sumEvensUntil(int n)
+        - Birden n'ye kadar olan tek sayıların toplamını bulan fonksiyon yaz
+            public static int sumOddsUntil(int n)
+        - Rastgele bir ay üreten bir fonksiyon yaz. Her çalıştırıldığında farklı bir ay ekrana yazılacak. Örn; Ocak, Temmuz gibi aylar.
+            public static void randomMonth()
+        - Ch2_Exercise1_BMI örneğini fonksiyona çevir.
+        - 3 tane integer sayıyı sıralayan fonksiyonu yaz.
+        - Java exercise 3.9'daki soruyu fonksiyon ile yaz 
+        - En az 3 haneli verilen bir sayının palindrome sayı olup olmadığını bulan fonksiyon yaz. Örn; 121 palindrome, 123 değil
+        
