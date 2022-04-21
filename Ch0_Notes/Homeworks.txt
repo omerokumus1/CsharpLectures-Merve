@@ -131,5 +131,18 @@ HW17:   1- Capitalize (baş harfi büyük yap) fonksiyonu yaz
         8- ToLower fonksiyonu yaz
         9- Capitalize each word fonksiyonu yaz
         11- Capitalize turkish letters, lower others fonksiyonu yaz
-        11- Clone fonksiyonu yaz
-        12- Contains character fonksiyonu yaz
+        12- Clone fonksiyonu yaz
+        13- Contains character fonksiyonu yaz
+        
+-----
+HW18:   1- Substring fonksiyonu yaz. Hatalı inputlar için kullanıcı uyar. 
+        2- StartsWith fonksiyonunu yaz.        
+        3- EndsWith fonksiyonunu yaz.   
+        4- IndexOf fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi)
+        5- LastIndexOf fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi).
+        6- Equals fonksiyonunu yaz.
+        7- Insert character fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi).
+        8- Remove a character at an index fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi).
+        9- Remove all characters** fonksiyonunu yaz. Karakter varsa siler yoksa silmez
+        10- Remove a character as given number of times (2 tane sil, 5 tane sil vb) fonk. yaz. index ve kaç kez silineceğinin kontrollerini yap
+        11- Remove a character starting from a given index as given number of times (2. indexten başla 3 tane sil gibi). index ve kaç kez silineceğinin kontrollerini yap

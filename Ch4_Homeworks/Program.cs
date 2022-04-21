@@ -36,7 +36,32 @@ namespace Ch4_Homeworks
              * HW16.4- Rastgele bir ay üreten bir fonksiyon yaz. Her çalıştırıldığında farklı bir ay ekrana yazılacak. Örn; Ocak, Temmuz gibi aylar.
                     public static void randomMonth()
              */
-            RandomMonth();
+            // RandomMonth();
+            
+            
+            // HW17.11- Capitalize turkish letters, lower others fonksiyonu yaz
+            var str = "GÖkTuğ Işık";
+            CapitalizeTurkishLettersLowerOthers(str);
+        }
+
+        public static void CapitalizeTurkishLettersLowerOthers(string str)
+        {
+            var lowercaseTurkishLetters = "çğıöşü";
+            var uppercaseTurkishLetters = "ÇĞIÖŞÜ";
+            char ch;
+            var newStr = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                ch = str.ElementAt(i);
+                if (lowercaseTurkishLetters.Contains(ch))
+                    newStr += Char.ToUpper(ch);
+                else if (uppercaseTurkishLetters.Contains(ch))
+                    newStr += ch;
+                else
+                    newStr += Char.ToLower(ch);
+            }
+
+            Console.WriteLine(newStr);
         }
 
         public static void RandomMonth()
