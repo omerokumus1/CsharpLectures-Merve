@@ -138,11 +138,23 @@ HW17:   1- Capitalize (baş harfi büyük yap) fonksiyonu yaz
 HW18:   1- Substring fonksiyonu yaz. Hatalı inputlar için kullanıcı uyar. 
         2- StartsWith fonksiyonunu yaz.        
         3- EndsWith fonksiyonunu yaz.   
-        4- IndexOf fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi)
-        5- LastIndexOf fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi).
+        4- IndexOf fonksiyonunu yaz.
+        5- LastIndexOf fonksiyonunu yaz.
         6- Equals fonksiyonunu yaz.
         7- Insert character fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi).
         8- Remove a character at an index fonksiyonunu yaz. index kontrolü yap (Substring fonksiyonundaki gibi).
         9- Remove all characters** fonksiyonunu yaz. Karakter varsa siler yoksa silmez
         10- Remove a character as given number of times (2 tane sil, 5 tane sil vb) fonk. yaz. index ve kaç kez silineceğinin kontrollerini yap
         11- Remove a character starting from a given index as given number of times (2. indexten başla 3 tane sil gibi). index ve kaç kez silineceğinin kontrollerini yap
+
+
+-----
+HW19:   1- Replace a character at an index with another given character (index kontrolü yap)
+        2- Replace string: verilen bir stringi verilen başka bir string ile değiştir. Sadece ilk eşleşme için değişim olacak
+            Örn; ab--ab--ab stringinde ab stringini xd ile değişirsek xd--ab--ab olur
+        3- Replace all strings: verilen bir stringi verilen başka bir string ile değiştir. Tüm eşleşmeler değiştirlecek
+            Örn; ab--ab--ab stringinde ab stringini xd ile değişirsek xd--xd--xd olur
+        4- Trim spaces: Stringin başındaki ve sonundaki boşlukları sil
+        5- Trim end: Stringin sonundaki boşlukları sil
+        6- Trim start: Stringin başındaki boşlukları sil
+        7- CompareTo**: İki stringi sözlük sırasına göre kıyasla. soldaki küçükse -1, ikisi eşitse 0, soldaki büyükse 1 bastır
