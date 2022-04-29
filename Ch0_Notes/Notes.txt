@@ -58,7 +58,8 @@
     + Replace a character as given number of times (2 tane değiştir, 5 tane değiştir vb)**
     + Replace a character starting from a given index as given number of times (2. indexten başla 3 tane değiştir gibi)***
     + Replace a character at an index with another given character
-    - Replace string**
+    - Replace string** (sadece ilk eşleşen)
+    - Replace all strings** (Tüm eşleşenler)
     + Trim spaces
     + Trim end
     + Trim start

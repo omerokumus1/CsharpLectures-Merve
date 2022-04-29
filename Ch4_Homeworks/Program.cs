@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Data.OleDb;
 using System.Linq;
+using System.Security.AccessControl;
 
 namespace Ch4_Homeworks
 {
@@ -31,17 +33,72 @@ namespace Ch4_Homeworks
             // Console.WriteLine("isbn: " + isbn);
             //013601267 -> 0136012671
             //013031997 -> 013031997X
-            
+
             /*
              * HW16.4- Rastgele bir ay üreten bir fonksiyon yaz. Her çalıştırıldığında farklı bir ay ekrana yazılacak. Örn; Ocak, Temmuz gibi aylar.
                     public static void randomMonth()
              */
             // RandomMonth();
-            
-            
+
+
             // HW17.11- Capitalize turkish letters, lower others fonksiyonu yaz
             var str = "GÖkTuğ Işık";
             CapitalizeTurkishLettersLowerOthers(str);
+
+            /*
+                HW19.2- Replace string: verilen bir stringi verilen başka bir string ile değiştir. Sadece ilk eşleşme için değişim olacak
+                Örn; ab--ab--ab stringinde ab stringini xd ile değişirsek xd--ab--ab olur
+             */
+            str = "--ac--ab--abc";
+            var oldStr = "abc";
+            var newStr = "xd";
+            ReplaceFirstString(str, oldStr, newStr);
+        }
+
+        private static void ReplaceFirstString(string str, string oldStr, string newStr)
+        {
+            var str2 = "";
+            var startIndex = -1;
+            var isFound = false;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str.ElementAt(i).Equals(oldStr.First()))
+                {
+                    isFound = true;
+                    // var k = i; // iç içe döngülerde içteki döngü dışardaki döngülerin döngü değişkenini değiştirmemeli (çoğu zaman*)
+                    for (int j = 0, k = i; j < oldStr.Length; j++, k++)
+                    {
+                        if (!str.ElementAt(k).Equals(oldStr.ElementAt(j)))
+                        {
+                            isFound = false;
+                            break;
+                        }
+                    
+                        // k++;
+                    }
+
+                    var substr = str.Substring(i, oldStr.Length);
+                    isFound = substr.Equals(oldStr);
+                    // if (substr.Equals(oldStr))
+                    // {
+                    //     startIndex = i;
+                    //     break;
+                    // }
+                }
+
+                if (isFound)
+                {
+                    startIndex = i;
+                    break;
+                }
+            }
+            for (int i = 0; i < startIndex; i++)
+                str2 += str.ElementAt(i);
+            str2 += newStr;
+            for (int i = startIndex + oldStr.Length; i < str.Length; i++)
+                str2 += str.ElementAt(i);
+            
+            Console.WriteLine("new string: " + str2);
         }
 
         public static void CapitalizeTurkishLettersLowerOthers(string str)
@@ -70,18 +127,42 @@ namespace Ch4_Homeworks
             var number = random.Next(1, 13);
             switch (number)
             {
-                case 1: Console.WriteLine("Ocak"); break;
-                case 2: Console.WriteLine("Şubat"); break;
-                case 3: Console.WriteLine("Mart"); break;
-                case 4: Console.WriteLine("Nisan"); break;
-                case 5: Console.WriteLine("Mayıs"); break;
-                case 6: Console.WriteLine("Haziran"); break;
-                case 7: Console.WriteLine("Temmuz"); break;
-                case 8: Console.WriteLine("Ağustos"); break;
-                case 9: Console.WriteLine("Eylül"); break;
-                case 10: Console.WriteLine("Ekim"); break;
-                case 11: Console.WriteLine("Kasım"); break;
-                case 12: Console.WriteLine("Aralık"); break;
+                case 1:
+                    Console.WriteLine("Ocak");
+                    break;
+                case 2:
+                    Console.WriteLine("Şubat");
+                    break;
+                case 3:
+                    Console.WriteLine("Mart");
+                    break;
+                case 4:
+                    Console.WriteLine("Nisan");
+                    break;
+                case 5:
+                    Console.WriteLine("Mayıs");
+                    break;
+                case 6:
+                    Console.WriteLine("Haziran");
+                    break;
+                case 7:
+                    Console.WriteLine("Temmuz");
+                    break;
+                case 8:
+                    Console.WriteLine("Ağustos");
+                    break;
+                case 9:
+                    Console.WriteLine("Eylül");
+                    break;
+                case 10:
+                    Console.WriteLine("Ekim");
+                    break;
+                case 11:
+                    Console.WriteLine("Kasım");
+                    break;
+                case 12:
+                    Console.WriteLine("Aralık");
+                    break;
             }
         }
 
