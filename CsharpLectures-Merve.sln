@@ -78,6 +78,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_3_PassByValue", "Ch4_3_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_Exercises", "Ch4_Exercises\Ch4_Exercises.csproj", "{F3B03D2C-400B-4875-86E9-460C9E3E612F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_4_MethodOverloading", "Ch4_4_MethodOverloading\Ch4_4_MethodOverloading.csproj", "{6AFCF4BE-091D-48AB-85F0-E3CA97B51299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_5_VariableScope", "Ch4_5_VariableScope\Ch4_5_VariableScope.csproj", "{71384AE6-DF4B-4FBC-84B9-D8BB9D5A8999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_Ex1_PasswordGenerator", "Ch4_Ex1_PasswordGenerator\Ch4_Ex1_PasswordGenerator.csproj", "{BC432D49-416A-48DB-97B7-34AD7711F5BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -240,5 +246,17 @@ Global
 		{F3B03D2C-400B-4875-86E9-460C9E3E612F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B03D2C-400B-4875-86E9-460C9E3E612F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B03D2C-400B-4875-86E9-460C9E3E612F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFCF4BE-091D-48AB-85F0-E3CA97B51299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFCF4BE-091D-48AB-85F0-E3CA97B51299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFCF4BE-091D-48AB-85F0-E3CA97B51299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFCF4BE-091D-48AB-85F0-E3CA97B51299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71384AE6-DF4B-4FBC-84B9-D8BB9D5A8999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71384AE6-DF4B-4FBC-84B9-D8BB9D5A8999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71384AE6-DF4B-4FBC-84B9-D8BB9D5A8999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71384AE6-DF4B-4FBC-84B9-D8BB9D5A8999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

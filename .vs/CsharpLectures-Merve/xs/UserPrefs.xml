@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3B3909CF-EF39-40D1-B03D-368689400697}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Ch1__1__Variables PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ch1__7__ReadingInputFromConsole PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ch1_7_ReadingInputFromConsole/ReadingInputFromConsole.cs">
+    <Files>
+      <File FileName="Ch1_7_ReadingInputFromConsole/ReadingInputFromConsole.cs" Line="50" Column="60" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CsharpLectures-Merve" expanded="True">
+            <Node name="Ch1_7_ReadingInputFromConsole" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
