@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_1_Variables", "Ch1_1_Variables\Ch1_1_Variables.csproj", "{477964B8-78E2-4A34-B65E-D49F675FCF42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1_2_Arithmetic", "Ch1_2_Arithmetic\Ch1_2_Arithmetic.csproj", "{64A5251E-8CBA-4998-8066-8E8DC122D1E3}"
@@ -83,6 +84,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_5_VariableScope", "Ch4_5_VariableScope\Ch4_5_VariableScope.csproj", "{71384AE6-DF4B-4FBC-84B9-D8BB9D5A8999}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_Ex1_PasswordGenerator", "Ch4_Ex1_PasswordGenerator\Ch4_Ex1_PasswordGenerator.csproj", "{BC432D49-416A-48DB-97B7-34AD7711F5BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5_1_ArraysBasics", "Ch5_1_ArraysBasics\Ch5_1_ArraysBasics.csproj", "{A4487186-D38E-47E0-9CA5-FF232522039D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5_2_IterationOverArrays", "Ch5_2_IterationOverArrays\Ch5_2_IterationOverArrays.csproj", "{2F6C1CD8-5E3F-4569-85A0-8FC03A4E1FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5_3_ProcessingArrays", "Ch5_3_ProcessingArrays\Ch5_3_ProcessingArrays.csproj", "{9C6EB577-F50D-4A12-82ED-688393F60A41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -258,5 +265,17 @@ Global
 		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC432D49-416A-48DB-97B7-34AD7711F5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4487186-D38E-47E0-9CA5-FF232522039D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4487186-D38E-47E0-9CA5-FF232522039D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4487186-D38E-47E0-9CA5-FF232522039D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4487186-D38E-47E0-9CA5-FF232522039D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6C1CD8-5E3F-4569-85A0-8FC03A4E1FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6C1CD8-5E3F-4569-85A0-8FC03A4E1FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6C1CD8-5E3F-4569-85A0-8FC03A4E1FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6C1CD8-5E3F-4569-85A0-8FC03A4E1FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6EB577-F50D-4A12-82ED-688393F60A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6EB577-F50D-4A12-82ED-688393F60A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6EB577-F50D-4A12-82ED-688393F60A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6EB577-F50D-4A12-82ED-688393F60A41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
