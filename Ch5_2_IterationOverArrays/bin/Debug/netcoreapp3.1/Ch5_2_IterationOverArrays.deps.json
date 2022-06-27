@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ch5_2_IterationOverArrays/1.0.0": {
+        "runtime": {
+          "Ch5_2_IterationOverArrays.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ch5_2_IterationOverArrays/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
