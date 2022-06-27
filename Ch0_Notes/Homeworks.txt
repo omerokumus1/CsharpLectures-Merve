@@ -158,3 +158,26 @@ HW19:   1- Replace a character at an index with another given character (index k
         5- Trim end: Stringin sonundaki boşlukları sil
         6- Trim start: Stringin başındaki boşlukları sil
         7- CompareTo**: İki stringi sözlük sırasına göre kıyasla. soldaki küçükse -1, ikisi eşitse 0, soldaki büyükse 1 bastır
+
+
+-----
+HW20:
+
+
+-----
+Hint-1: farklı çeşit fonksiyonlar yazabilirsin. Örn; void, return yapan, parametresi olan/olmayan vs
+Hint-2: Farklı yollardan çözmeye çalış.
+
+HW21:   1- Find minimum element of an array
+        2- Find the index of the minimum element of an array
+        3- Finding the smallest index of the largest element
+            Örn; {1, 5, 3, 4, 5, 5} dizisinde max eleman 5'tir ve 3 tane vardır. Burada en küçük olan için 1 döndürmesi gerekiyor.
+        4- Finding the largest index of the largest element
+            Örn; {1, 5, 3, 4, 5, 5} dizisinde max eleman 5'tir ve 3 tane vardır. Burada en büyük olan için 5 döndürmesi gerekiyor. (2 çözüm mevcuttur)
+        5- Random shuffling: Bir dizinin elemanları rastgele karıştırın
+            Örn; {1, 2, 3, 4, 5} -> {4, 2, 1, 5, 3} veya başka bir şekilde karıştırılmış hali çıkabilir (iskambil kağıdı karıştırmak gibi)
+        6- Shifting elements left
+            Örn; {1, 2, 3, 4, 5} -> {2, 3, 4, 5, 1} tüm elemanlar 1 birim sola gelir, en soldaki de en sağa geçer
+        7- Shifting elements right
+            Örn; {1, 2, 3, 4, 5} -> {5, 1, 2, 3, 4}  tüm elemanlar 1 birim sağa gelir, en sağdaki de en sola geçer
+            
