@@ -1,0 +1,12 @@
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/bin/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.deps.json
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/bin/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.runtimeconfig.json
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/bin/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.runtimeconfig.dev.json
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/bin/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.dll
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/bin/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.pdb
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.csproj.AssemblyReference.cache
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.AssemblyInfoInputs.cache
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.AssemblyInfo.cs
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.csproj.CoreCompileInputs.cache
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.dll
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.pdb
+/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/obj/Debug/netcoreapp3.1/Ch5_1_ArraysBasics.genruntimeconfig.cache

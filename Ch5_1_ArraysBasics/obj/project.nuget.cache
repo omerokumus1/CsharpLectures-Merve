@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QE44oDPDwzGz090AVCG3lGu2yvcwaFxOHUugSGfZE/IgUhpc1kfy/9nXGSi0JxvlHYFI7g8pU6OapwDsuI0tuw==",
+  "success": true,
+  "projectFilePath": "/Users/omerokumus/WorkSpace/C#/CsharpLectures-Merve/Ch5_1_ArraysBasics/Ch5_1_ArraysBasics.csproj",
+  "expectedPackageFiles": [
+    "/Users/omerokumus/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/omerokumus/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
